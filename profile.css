@@ -76,7 +76,7 @@ body {
 }
 .profile_pic > label > ion-icon {
   margin-top: 1.5rem;
-  color: rgba(255, 255, 255, 0.742);
+  color: rgba(118, 110, 110, 0.742);
 }
 .profile_pic > p {
   font-size: 1.5rem;
@@ -86,10 +86,10 @@ body {
   width: 2.2rem;
   height: 2rem;
   border-radius: 100%;
-  background-color: white;
 }
 .profile_pic > p > ion-icon {
-  margin-top: .2rem;
+  margin-top: .3rem;
+  color: rgb(93, 88, 88);
 }
 .triangle_one {
   position: fixed;
@@ -777,7 +777,6 @@ nav.main-menu {
   padding-top: 8px;
   padding-bottom: 7px;
 }
-
 .main-menu li > a {
   position: relative;
   display: table;
@@ -831,7 +830,10 @@ a:hover,
 a:focus {
   text-decoration: none;
 }
-
+.pc_pro{
+  background-color: white;
+  border-radius: 0 0 0 .7rem;
+}
 nav {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -872,7 +874,7 @@ nav li {
 }
 
 .main-menu li i {
-  background: #8d66be;
+  background:#8359b9;
 }
 .main-menu::after {
   content: "";
@@ -927,7 +929,9 @@ nav li {
   #footer {
     display: none;
   }
-
+  .setting{
+    display: none;
+  }
   .round {
     width: calc(100% - 200px);
     margin-left: 200px;
@@ -1022,6 +1026,9 @@ nav li {
     display: none;
   }
   .pc_header{
+    display: none;
+  }
+  .pc_withdrawal{
     display: none;
   }
 }

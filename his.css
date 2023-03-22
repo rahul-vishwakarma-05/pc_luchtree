@@ -176,8 +176,8 @@ body {
   margin-left: 0.5rem;
 }
 .items {
-  width: 20%;
-  height: 55%;
+  width: 90px;
+  height: 90px;
   margin: 1.5rem 1.1rem 0 0;
   background: url("i.jpg") center;
   background-size: cover;
@@ -488,4 +488,9 @@ nav li {
   .main-menu {
     display: none;
   }
+}
+
+.pc_histo{
+  background-color: white;
+  border-radius: 0 0 0 .7rem;
 }
