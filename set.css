@@ -11,10 +11,8 @@ body{
   overflow: hidden;
 }
 
-/* ------------ footer for pc------------ */
-
 .history_header {
-  height: 90px;
+  height: 89px;
   border-bottom-right-radius: 40px;
   box-shadow: 0px 3px 5px 0px rgba(22, 18, 18, 0.934);
   background: #8359b9;
@@ -26,7 +24,6 @@ body{
   justify-content: space-between;
 }
 .header > span {
-  scale: 0;
   border: 1px solid;
   width: 4rem;
   height: 4rem;
@@ -81,6 +78,9 @@ body{
   background-color: #11c6d1;
   z-index: -1;
 }
+
+
+/* ------------ footer for pc------------ */
 
 
 .setting {
@@ -230,7 +230,7 @@ body{
     width: 100%;
     height: 48%;
     transition: all 1s ease;
-    transform: translateY(5rem);
+    transform: translateY(50rem);
     /* transform: scale(0); */
   }
   
@@ -352,6 +352,7 @@ nav.main-menu {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  border: 1px solid;
 }
 
 .main-menu li {
@@ -549,4 +550,18 @@ nav li {
     top: 65px;
     right: 80px;
   }
+}
+
+
+@media screen and (max-width: 500px) {
+  .main-menu {
+    width: 10px;
+  }
+  
+.main-menu,
+nav.main-menu {
+  width: 150px;
+  overflow: visible;
+}
+
 }
