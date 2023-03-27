@@ -115,7 +115,7 @@ body {
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
   scrollbar-width: none; /* for Firefox */
   overflow-y: scroll;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
   text-transform: capitalize;
 }
 .win_body::-webkit-scrollbar {
@@ -239,6 +239,11 @@ hr {
 .updated-footer {
   grid-template-columns: repeat(5, 1fr) !important;
 }
+
+#footer > a{
+  display: block;
+}
+
 
 .crown-added {
   border-radius: 100%;

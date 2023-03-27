@@ -234,6 +234,9 @@ display: none; /* for Chrome, Safari, and Opera */
   justify-content :  center;
   align-items     : center;
 }
+#footer > a{
+  display: block;
+}
 
 #footer > div > ion-icon{
   font-size : 25px;

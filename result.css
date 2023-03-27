@@ -117,7 +117,7 @@ body {
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
   scrollbar-width: none; /* for Firefox */
   overflow-y: scroll;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
   text-transform: capitalize;
 }
 .win_body::-webkit-scrollbar {
@@ -233,6 +233,9 @@ hr {
 
 #footer > div > a {
   text-decoration: none;
+}
+#footer > a{
+  display: block;
 }
 
 .footer-crown {

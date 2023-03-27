@@ -211,6 +211,9 @@ body {
 #footer > div > a > h5 {
   color: blue;
 }
+#footer > a{
+  display: block;
+}
 
 .footer-crown {
   border-radius: 100%;
