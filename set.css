@@ -24,12 +24,7 @@ body{
   justify-content: space-between;
 }
 .header > span {
-  border: 1px solid;
-  width: 4rem;
-  height: 4rem;
-  border-radius: 100%;
-  margin-top: 0.2rem;
-  margin-left: 10px;
+  transform: translateX(-200vw);
 }
 .header > h2 {
   width: 8rem;
@@ -336,7 +331,7 @@ nav.main-menu {
 }
 
 .main-menu {
-  background: #8359b9;
+  background:#8359b9;
   position: absolute;
   top: 88px;
   bottom: 0;
@@ -352,7 +347,7 @@ nav.main-menu {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  border: 1px solid;
+
 }
 
 .main-menu li {
@@ -456,7 +451,9 @@ nav li {
   border-bottom-left-radius: 10px;
 }
 .main-menu li i {
-  background: #8d66be;
+  /* background: #8d66be; */
+  background : #8359b9;
+
 }
 .main-menu::after {
   content: "";
@@ -563,5 +560,7 @@ nav.main-menu {
   width: 150px;
   overflow: visible;
 }
-
+ body{
+  display: none;
+ }
 }
